@@ -1,7 +1,10 @@
-﻿namespace ISG_api.Models.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ISG_api.Models.Entities
 {
     public class Review
     {
+        [Key]
         public int ReviewId { get; set; }
 
         public int UserId { get; set; }
@@ -11,5 +14,6 @@
         public string Content { get; set; }
 
         public DateTime CreatedAt { get; set; }
+        public string Title { get; set; }
     }
 }

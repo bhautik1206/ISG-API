@@ -1,5 +1,79 @@
 [
   {
+    "ContainingType": "ISG_api.Controllers.ISGController",
+    "Method": "AddReview",
+    "RelativePath": "api/controller/add-review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "ISG_api.Models.ReviewDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ISG_api.Controllers.ISGController",
+    "Method": "AddThread",
+    "RelativePath": "api/controller/add-thread",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "ISG_api.Models.ThreadDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ISG_api.Controllers.ISGController",
+    "Method": "AddOrUpdateUser",
+    "RelativePath": "api/controller/add-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "ISG_api.Models.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ISG_api.Controllers.ISGController",
+    "Method": "GetAllThread",
+    "RelativePath": "api/controller/get-all-thread",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ISG_api.Controllers.ISGController",
+    "Method": "GetAllThreadByUserID",
+    "RelativePath": "api/controller/get-all-thread-by-userID/{userID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ISG_api.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
