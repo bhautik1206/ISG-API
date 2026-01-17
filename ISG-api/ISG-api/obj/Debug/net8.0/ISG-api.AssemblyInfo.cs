@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ISG-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57c8f0df88b4213f881766f315530d9d468429f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+276409e394d4540abb3e9df2d9759488aee39bae")]
 [assembly: System.Reflection.AssemblyProductAttribute("ISG-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ISG-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
